@@ -1075,7 +1075,7 @@ public class G extends Application implements Application.ActivityLifecycleCallb
     }
 
     public static boolean isDonate() {
-        return hasDonateBuild();
+        return true;
     }
 
     public static boolean isDoKey(Context ctx) {
